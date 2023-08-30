@@ -1,0 +1,173 @@
+*{ /* resetando as configurações */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* configurações de fontes*/
+body,
+input,
+textarea,
+button {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+/* configurações de espaçamento do site */
+#cabecalho,
+body,
+footer {
+    max-width: 1280px;
+    width: 80%;
+    margin: auto;
+}
+
+/* Configurações do cabecalho */
+#cabecalho {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo {
+    width: 150px;
+}
+
+header nav li { /* configurações dos itens do cabeçalho */
+    display: inline; 
+}
+
+header nav li a { /* configurações dos itens do cabeçalho */
+    display: inline;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    color: #026A99;
+}
+
+/* Configurações do sobre */
+#sobre {
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+}
+
+#sobre img {
+    margin-left: 100px;
+    align-items: center;
+    width: 315px;
+}
+
+#sobre h1, /* configurações do sobre */
+button {
+    margin-left: 50px;
+    color: #026A99;
+}
+
+#sobre h1 {
+    font-size: xx-large;
+}
+
+#sobre h3{
+    margin-left: 50px;
+    color: #026A99;
+}
+
+#sobre p {
+    margin-left: 50px;
+    color: #393b3b;
+}
+
+#sobre button {
+    padding: 12px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: darkorange;
+    border: none;
+    color: #fff;
+    font-size: large;
+    font-weight: normal;
+}
+
+/* Configurações do contato */
+#contato {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+form input{
+    padding: 12px;
+}
+
+form textarea {
+    padding: 24px;
+    height: 180px;
+    text-align: left;
+    resize: none;
+}
+
+form button {
+    background-color: darkorange;
+    color: #fff;
+    font-size: large;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#solicite h1 {
+    color: #026A99;
+    margin-left: 50px;
+}
+
+#solicite h3{
+    color: #026A99;
+}
+
+#solicite p {
+    color: #393b3b;
+    margin-left: 50px;
+}
+
+#solicite h3 {
+    margin-top: 20px;
+}
+
+#redes_sociais {
+    margin-left: 50px;
+}
+
+#redes_sociais img, li {
+    width: 30px;
+    display: inline;
+    text-decoration: none;
+    margin-top: 5px;  
+}
+
+.youtube,
+.whatsapp {
+    margin-left: 10px;
+}
+
+/* Confiraguções do footer */
+#footer {
+    margin: 100px;
+}
